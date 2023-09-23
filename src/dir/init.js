@@ -8,7 +8,7 @@ import 'gun/lib/rindexed'
 // import 'gun/lib/then'
 const gun = new Gun({peers: ['http://relay1.online:8080/gun', 'https://peer.wallie.io/gun', 'https://gun-manhattan.herokuapp.com/gun'], localStorage: false, radisk: true})
 const user = gun.user()
-const address = 'DNribR-oFRolEg2Frj3c5uVRkI9tSgHnt0hdaeSBLTw.UtlDR6-zeyJxDhhgKnelNp8hnURTmRl1XhG1-fpdpJo'
+const address = 'xrytEKrAar2Cl1YZR52k8gHiV_aEKd0U8BXZJYIH9Gs.LiGffXlQ6shwjnZKsJtID8a8iMfvwoLOKaNK7yenE9M'
 const site = gun.user(address) // some user here
 const cert = import.meta.env.VITE_CERT
 const config = writable({})
